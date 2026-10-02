@@ -1217,7 +1217,7 @@ If you want to study this exactly like your **Chapter 1 preparation**, the next 
 # Mindmap
 
 
-![[Operating Systems Process Management Mind Map.png]]
+![[image.png]]
 
 ## Question & Answer Bank
 
