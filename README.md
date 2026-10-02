@@ -4090,3 +4090,1123 @@ Finally, processes may encounter **Deadlock**, where resource-waiting conditions
 Therefore, Process Management includes **process execution, scheduling, communication, synchronization and deadlock**.
 
 ---
+Got it. You want **100 MCQs where every question is different, and the answer is written directly under each question** — not a separate answer key.
+
+I’ll also avoid repeating the same question in different wording and keep them based on your Chapter 2 PPT. 
+
+# 📝 Chapter 2 — 100 MCQs With Answers
+
+## 🔵 Process & Process Basics
+
+### Q1. What is a process?
+
+A. A stored file
+B. An instance of an executing program
+C. A hardware device
+D. A compiler
+
+**Answer: B. An instance of an executing program**
+
+---
+
+### Q2. A process is considered an:
+
+A. Inactive entity
+B. Active entity
+C. Static file
+D. Hardware component
+
+**Answer: B. Active entity**
+
+---
+
+### Q3. Where is an executing process loaded?
+
+A. ROM
+B. Main memory
+C. Keyboard
+D. Printer
+
+**Answer: B. Main memory**
+
+---
+
+### Q4. What type of lifespan does a process have?
+
+A. Unlimited
+B. Permanent
+C. Limited
+D. Fixed at system startup
+
+**Answer: C. Limited**
+
+---
+
+### Q5. A process is described as a:
+
+A. Static entity
+B. Dynamic entity
+C. Physical device
+D. Storage unit
+
+**Answer: B. Dynamic entity**
+
+---
+
+### Q6. Which resource does a process need for execution?
+
+A. CPU
+B. Monitor
+C. Keyboard
+D. Printer
+
+**Answer: A. CPU**
+
+---
+
+### Q7. Which combination of resources may a process require?
+
+A. CPU only
+B. Memory only
+C. I/O only
+D. CPU, memory and I/O
+
+**Answer: D. CPU, memory and I/O**
+
+---
+
+### Q8. What does PCB stand for?
+
+A. Process Control Block
+B. Program Control Bus
+C. Process Communication Board
+D. Program Control Block
+
+**Answer: A. Process Control Block**
+
+---
+
+### Q9. What is associated with every process for OS management?
+
+A. PCB
+B. Printer
+C. Keyboard
+D. Monitor
+
+**Answer: A. PCB**
+
+---
+
+### Q10. Which statement best describes a process?
+
+A. A program that is currently executing
+B. A program that can never execute
+C. A hardware component
+D. A permanent file
+
+**Answer: A. A program that is currently executing**
+
+---
+
+### Q11. Why is a process called a dynamic entity?
+
+A. It changes state during execution
+B. It never changes
+C. It is stored permanently
+D. It is hardware
+
+**Answer: A. It changes state during execution**
+
+---
+
+### Q12. Which of the following is NOT a characteristic of a process?
+
+A. Limited lifespan
+B. Dynamic nature
+C. Resource requirements
+D. Permanent existence
+
+**Answer: D. Permanent existence**
+
+---
+
+### Q13. A process requires memory primarily because:
+
+A. It is an executing entity loaded into memory
+B. It is a keyboard
+C. It is a printer
+D. It is a monitor
+
+**Answer: A. It is an executing entity loaded into memory**
+
+---
+
+### Q14. Which component keeps information related to a process?
+
+A. PCB
+B. CPU fan
+C. Monitor
+D. Keyboard
+
+**Answer: A. PCB**
+
+---
+
+### Q15. Which statement is TRUE about a process?
+
+A. It has an unlimited lifespan
+B. It is always inactive
+C. It has a limited lifespan
+D. It does not require memory
+
+**Answer: C. It has a limited lifespan**
+
+---
+
+## 🟢 Process Life Cycle
+
+### Q16. Which state represents a process that is being created?
+
+A. Ready
+B. New
+C. Running
+D. Waiting
+
+**Answer: B. New**
+
+---
+
+### Q17. What does the Ready state indicate?
+
+A. Process has finished
+B. Process is ready but waiting for CPU
+C. Process is being created
+D. Process is waiting for I/O
+
+**Answer: B. Process is ready but waiting for CPU**
+
+---
+
+### Q18. Which state indicates that a process is currently using the CPU?
+
+A. New
+B. Ready
+C. Running
+D. Waiting
+
+**Answer: C. Running**
+
+---
+
+### Q19. Why does a process enter the Waiting state?
+
+A. It needs an event such as I/O or input
+B. It has finished execution
+C. It is being created
+D. It has been deleted
+
+**Answer: A. It needs an event such as I/O or input**
+
+---
+
+### Q20. Which state is associated with waiting for user input?
+
+A. Running
+B. Waiting
+C. New
+D. Terminated
+
+**Answer: B. Waiting**
+
+---
+
+### Q21. What happens when a process waits for I/O?
+
+A. It remains in Running state
+B. It enters Waiting state
+C. It enters New state
+D. It terminates immediately
+
+**Answer: B. It enters Waiting state**
+
+---
+
+### Q22. A process in the Waiting state:
+
+A. Continuously requires CPU
+B. Does not require CPU while waiting
+C. Is always terminated
+D. Is not in memory
+
+**Answer: B. Does not require CPU while waiting**
+
+---
+
+### Q23. Where does a waiting process remain according to the PPT?
+
+A. Outside the computer
+B. In memory
+C. In the keyboard
+D. In the printer
+
+**Answer: B. In memory**
+
+---
+
+### Q24. After completing the required I/O, a process can return to:
+
+A. Ready
+B. New
+C. Terminated
+D. Deleted
+
+**Answer: A. Ready**
+
+---
+
+### Q25. Which state represents the end of a process's execution?
+
+A. Ready
+B. Running
+C. Waiting
+D. Terminated
+
+**Answer: D. Terminated**
+
+---
+
+### Q26. What happens to the PCB when a process is terminated?
+
+A. It is deleted
+B. It is executed
+C. It becomes Ready
+D. It becomes a scheduler
+
+**Answer: A. It is deleted**
+
+---
+
+### Q27. Which sequence correctly begins the process life cycle?
+
+A. Running → New
+B. New → Ready
+C. Waiting → New
+D. Terminated → Ready
+
+**Answer: B. New → Ready**
+
+---
+
+### Q28. Which state can follow Running when a process needs I/O?
+
+A. New
+B. Waiting
+C. Terminated only
+D. Ready only
+
+**Answer: B. Waiting**
+
+---
+
+### Q29. Which state contains a process waiting for CPU allocation?
+
+A. Waiting
+B. Ready
+C. New
+D. Terminated
+
+**Answer: B. Ready**
+
+---
+
+### Q30. Which state indicates that the process has been killed?
+
+A. Running
+B. Ready
+C. Terminated
+D. New
+
+**Answer: C. Terminated**
+
+---
+
+## 🟠 Scheduling & Schedulers
+
+### Q31. How many types of schedulers are covered in the chapter?
+
+A. One
+B. Two
+C. Three
+D. Four
+
+**Answer: C. Three**
+
+---
+
+### Q32. Which is the first-level scheduler?
+
+A. Medium-Term Scheduler
+B. Short-Term Scheduler
+C. Long-Term Scheduler
+D. Ready Scheduler
+
+**Answer: C. Long-Term Scheduler**
+
+---
+
+### Q33. Which is the second-level scheduler?
+
+A. Long-Term Scheduler
+B. Medium-Term Scheduler
+C. Short-Term Scheduler
+D. CPU Scheduler
+
+**Answer: B. Medium-Term Scheduler**
+
+---
+
+### Q34. Which is the third-level scheduler?
+
+A. Long-Term Scheduler
+B. Medium-Term Scheduler
+C. Short-Term Scheduler
+D. Batch Scheduler
+
+**Answer: C. Short-Term Scheduler**
+
+---
+
+### Q35. What does the Long-Term Scheduler select?
+
+A. Jobs/processes from the batch queue
+B. Processes from the keyboard
+C. Completed processes
+D. Terminated processes
+
+**Answer: A. Jobs/processes from the batch queue**
+
+---
+
+### Q36. Where does the Long-Term Scheduler get processes from?
+
+A. Ready queue
+B. Batch queue
+C. Waiting queue
+D. CPU
+
+**Answer: B. Batch queue**
+
+---
+
+### Q37. What does the Long-Term Scheduler load into main memory?
+
+A. Selected jobs/processes
+B. Printers
+C. Files only
+D. Keyboard input
+
+**Answer: A. Selected jobs/processes**
+
+---
+
+### Q38. How frequently does the Long-Term Scheduler operate?
+
+A. Very frequently
+B. Less frequently
+C. Every CPU instruction
+D. Continuously
+
+**Answer: B. Less frequently**
+
+---
+
+### Q39. Which scheduler controls the degree of multiprogramming through job admission?
+
+A. Long-Term Scheduler
+B. Short-Term Scheduler
+C. Keyboard Scheduler
+D. I/O Scheduler
+
+**Answer: A. Long-Term Scheduler**
+
+---
+
+### Q40. What is the main purpose of the Medium-Term Scheduler?
+
+A. Swapping
+B. Printing
+C. Compilation
+D. File deletion
+
+**Answer: A. Swapping**
+
+---
+
+### Q41. What does the Medium-Term Scheduler swap?
+
+A. Processes
+B. Keyboards
+C. Monitors
+D. Printers
+
+**Answer: A. Processes**
+
+---
+
+### Q42. Between which locations does the Medium-Term Scheduler move processes?
+
+A. CPU and keyboard
+B. Main memory and disk
+C. Printer and monitor
+D. ROM and CPU
+
+**Answer: B. Main memory and disk**
+
+---
+
+### Q43. Which scheduler provides support for swapping?
+
+A. Long-Term
+B. Medium-Term
+C. Short-Term
+D. None
+
+**Answer: B. Medium-Term**
+
+---
+
+### Q44. Which scheduler selects the next process for CPU execution?
+
+A. Long-Term
+B. Medium-Term
+C. Short-Term
+D. Batch Scheduler
+
+**Answer: C. Short-Term**
+
+---
+
+### Q45. Which queue is used by the Short-Term Scheduler?
+
+A. Batch queue
+B. Ready queue
+C. Disk queue
+D. Terminated queue
+
+**Answer: B. Ready queue**
+
+---
+
+### Q46. Which transition is controlled by the Short-Term Scheduler?
+
+A. New → Terminated
+B. Ready → Running
+C. Running → New
+D. Terminated → Ready
+
+**Answer: B. Ready → Running**
+
+---
+
+### Q47. Which scheduler operates very frequently?
+
+A. Long-Term
+B. Medium-Term
+C. Short-Term
+D. Batch Scheduler
+
+**Answer: C. Short-Term**
+
+---
+
+### Q48. Which scheduler is always present in modern operating systems according to the PPT?
+
+A. Long-Term
+B. Medium-Term
+C. Short-Term
+D. None
+
+**Answer: C. Short-Term**
+
+---
+
+### Q49. Which scheduler is associated with the batch system?
+
+A. Long-Term Scheduler
+B. Short-Term Scheduler
+C. Medium-Term Scheduler
+D. CPU Scheduler
+
+**Answer: A. Long-Term Scheduler**
+
+---
+
+### Q50. Which scheduler is directly responsible for choosing the next CPU process?
+
+A. Long-Term
+B. Medium-Term
+C. Short-Term
+D. Batch Scheduler
+
+**Answer: C. Short-Term**
+
+---
+
+## 🔴 IPC & Cooperating Processes
+
+### Q51. What does IPC stand for?
+
+A. Internal Process Control
+B. Inter-Process Communication
+C. Inter-Program Control
+D. Internal Program Communication
+
+**Answer: B. Inter-Process Communication**
+
+---
+
+### Q52. What is the main purpose of IPC?
+
+A. Allow processes to communicate
+B. Increase monitor size
+C. Format disks
+D. Compile programs
+
+**Answer: A. Allow processes to communicate**
+
+---
+
+### Q53. IPC can provide:
+
+A. Event notification
+B. Data transfer
+C. Both A and B
+D. Neither A nor B
+
+**Answer: C. Both A and B**
+
+---
+
+### Q54. Which is an IPC example mentioned in the chapter?
+
+A. UNIX shell pipeline
+B. Keyboard driver
+C. Monitor display
+D. CPU fan
+
+**Answer: A. UNIX shell pipeline**
+
+---
+
+### Q55. Which is another IPC example?
+
+A. Network printer
+B. Mouse pad
+C. RAM chip
+D. Monitor
+
+**Answer: A. Network printer**
+
+---
+
+### Q56. Chat/mail servers can involve:
+
+A. IPC
+B. CPU manufacturing
+C. Memory formatting
+D. Hardware assembly
+
+**Answer: A. IPC**
+
+---
+
+### Q57. Which is an issue in IPC?
+
+A. Passing information
+B. Screen brightness
+C. Keyboard color
+D. CPU temperature
+
+**Answer: A. Passing information**
+
+---
+
+### Q58. Which IPC issue involves preventing processes from disturbing one another?
+
+A. Sequencing
+B. Avoiding interference
+C. Termination
+D. Scheduling
+
+**Answer: B. Avoiding interference**
+
+---
+
+### Q59. Which IPC issue deals with the order of operations?
+
+A. Sequencing
+B. Swapping
+C. Compilation
+D. Termination
+
+**Answer: A. Sequencing**
+
+---
+
+### Q60. A process that does not communicate with another process is called:
+
+A. Cooperating
+B. Independent
+C. Waiting
+D. Running
+
+**Answer: B. Independent**
+
+---
+
+### Q61. A process that communicates with other processes is called:
+
+A. Independent
+B. Cooperating
+C. Terminated
+D. New
+
+**Answer: B. Cooperating**
+
+---
+
+### Q62. Which is an advantage of cooperating processes?
+
+A. Information sharing
+B. Permanent blocking
+C. No communication
+D. Process deletion
+
+**Answer: A. Information sharing**
+
+---
+
+### Q63. Which advantage allows work to be performed faster using cooperation?
+
+A. Computation speedup
+B. Process termination
+C. Swapping
+D. Waiting
+
+**Answer: A. Computation speedup**
+
+---
+
+### Q64. Which is another advantage of cooperating processes?
+
+A. Modularity
+B. Permanent waiting
+C. No resource sharing
+D. Process deletion
+
+**Answer: A. Modularity**
+
+---
+
+### Q65. Which is an additional advantage mentioned in the chapter?
+
+A. Convenience
+B. Deadlock
+C. Race condition
+D. Waiting
+
+**Answer: A. Convenience**
+
+---
+
+### Q66. What problem can cooperating processes introduce?
+
+A. Race conditions
+B. Monitor damage
+C. Keyboard failure
+D. CPU manufacturing errors
+
+**Answer: A. Race conditions**
+
+---
+
+### Q67. Cooperating processes require what to avoid interference?
+
+A. Synchronization
+B. Termination
+C. Compilation
+D. Printing
+
+**Answer: A. Synchronization**
+
+---
+
+## 🟣 Race Condition & Critical Section
+
+### Q68. What is a race condition?
+
+A. A problem caused by uncontrolled concurrent access to shared data
+B. A process creation method
+C. A scheduling type
+D. A memory type
+
+**Answer: A. A problem caused by uncontrolled concurrent access to shared data**
+
+---
+
+### Q69. In the race-condition example, what is the initial value of A?
+
+A. 100
+B. 500
+C. 1000
+D. 2000
+
+**Answer: C. 1000**
+
+---
+
+### Q70. What operation does P0 perform on A?
+
+A. A = A + 200
+B. A = A − 100
+C. A = A × 100
+D. A = A / 100
+
+**Answer: B. A = A − 100**
+
+---
+
+### Q71. What operation does P1 perform on A?
+
+A. A = A − 100
+B. A = A + 200
+C. A = A × 200
+D. A = A / 200
+
+**Answer: B. A = A + 200**
+
+---
+
+### Q72. What operation does P0 perform before modifying A?
+
+A. Write(A)
+B. Read(A)
+C. Delete(A)
+D. Signal(A)
+
+**Answer: B. Read(A)**
+
+---
+
+### Q73. What operation does a process perform after modifying A?
+
+A. Write(A)
+B. Read(A)
+C. Wait(A)
+D. Delete(A)
+
+**Answer: A. Write(A)**
+
+---
+
+### Q74. What is the part of code that accesses a shared resource called?
+
+A. Critical section
+B. Ready queue
+C. Batch section
+D. Waiting queue
+
+**Answer: A. Critical section**
+
+---
+
+### Q75. Why is a critical section important?
+
+A. It accesses a shared resource
+B. It creates a new process
+C. It terminates every process
+D. It loads the OS
+
+**Answer: A. It accesses a shared resource**
+
+---
+
+### Q76. What does mutual exclusion provide?
+
+A. Exclusive access to the critical section
+B. Simultaneous conflicting access
+C. Process termination
+D. Memory deletion
+
+**Answer: A. Exclusive access to the critical section**
+
+---
+
+### Q77. If one process is executing a critical section, mutual exclusion prevents:
+
+A. Other conflicting processes from entering it
+B. The CPU from running
+C. All processes from existing
+D. The OS from operating
+
+**Answer: A. Other conflicting processes from entering it**
+
+---
+
+### Q78. Race conditions are related to:
+
+A. Shared resources
+B. Monitor size
+C. Keyboard shape
+D. Printer color
+
+**Answer: A. Shared resources**
+
+---
+
+### Q79. Which concept is directly used to control access to a critical section?
+
+A. Mutual exclusion
+B. Long-term scheduling
+C. IPC example
+D. Process termination
+
+**Answer: A. Mutual exclusion**
+
+---
+
+### Q80. Which problem does synchronization help control?
+
+A. Race condition
+B. Screen resolution
+C. Keyboard layout
+D. CPU manufacturing
+
+**Answer: A. Race condition**
+
+---
+
+## 🟡 Semaphores
+
+### Q81. What is a semaphore?
+
+A. An integer variable
+B. A string variable
+C. A file
+D. A process state
+
+**Answer: A. An integer variable**
+
+---
+
+### Q82. Semaphore operations are:
+
+A. Atomic
+B. Non-atomic
+C. Optional
+D. Hardware-only
+
+**Answer: A. Atomic**
+
+---
+
+### Q83. Which pair represents the two basic semaphore operations?
+
+A. Read and Write
+B. Down/Wait and Up/Signal
+C. Start and Stop
+D. Open and Close
+
+**Answer: B. Down/Wait and Up/Signal**
+
+---
+
+### Q84. Which operation is also called Down?
+
+A. Signal
+B. Wait
+C. Run
+D. Start
+
+**Answer: B. Wait**
+
+---
+
+### Q85. Which operation is also called Up?
+
+A. Wait
+B. Signal
+C. Block
+D. Read
+
+**Answer: B. Signal**
+
+---
+
+### Q86. What does Wait/Down do when the semaphore permits the operation?
+
+A. Decrements the semaphore
+B. Increases the semaphore
+C. Deletes it
+D. Terminates the process
+
+**Answer: A. Decrements the semaphore**
+
+---
+
+### Q87. What does Signal/Up do?
+
+A. Decreases the semaphore
+B. Increases the semaphore
+C. Deletes the semaphore
+D. Blocks every process
+
+**Answer: B. Increases the semaphore**
+
+---
+
+### Q88. Which is a type of semaphore?
+
+A. Binary
+B. Character
+C. Decimal
+D. String
+
+**Answer: A. Binary**
+
+---
+
+### Q89. Which semaphore type uses a count to represent available resources?
+
+A. Binary
+B. Counting
+C. Character
+D. Boolean-only
+
+**Answer: B. Counting**
+
+---
+
+### Q90. What is the primary purpose of a semaphore?
+
+A. Process synchronization
+B. File compression
+C. CPU manufacturing
+D. Screen display
+
+**Answer: A. Process synchronization**
+
+---
+
+## ⚫ Deadlock
+
+### Q91. What is deadlock?
+
+A. A situation in which processes become unable to proceed
+B. A process creation state
+C. A scheduling queue
+D. A type of IPC
+
+**Answer: A. A situation in which processes become unable to proceed**
+
+---
+
+### Q92. Which condition is associated with deadlock?
+
+A. Mutual exclusion
+B. Compilation
+C. Program loading
+D. Process creation
+
+**Answer: A. Mutual exclusion**
+
+---
+
+### Q93. Which other condition is specifically mentioned with deadlock?
+
+A. Hold and wait
+B. Ready and running
+C. New and terminated
+D. Read and write
+
+**Answer: A. Hold and wait**
+
+---
+
+### Q94. What does mutual exclusion mean in relation to resources?
+
+A. A resource cannot be simultaneously shared by multiple processes
+B. Every process must share every resource
+C. Resources cannot be used
+D. Resources are automatically deleted
+
+**Answer: A. A resource cannot be simultaneously shared by multiple processes**
+
+---
+
+### Q95. What does Hold and Wait mean?
+
+A. A process holds one resource while waiting for another
+B. A process releases everything before waiting
+C. A process never waits
+D. A process is terminated while holding nothing
+
+**Answer: A. A process holds one resource while waiting for another**
+
+---
+
+### Q96. Consider P1 holding R1 and waiting for R2, while P2 holds R2 and waits for R1. This illustrates:
+
+A. IPC
+B. Deadlock
+C. Scheduling
+D. Process creation
+
+**Answer: B. Deadlock**
+
+---
+
+### Q97. Which two conditions from the PPT can contribute to deadlock?
+
+A. Mutual exclusion and hold-and-wait
+B. Ready and running
+C. New and waiting
+D. IPC and PCB
+
+**Answer: A. Mutual exclusion and hold-and-wait**
+
+---
+
+### Q98. In a deadlock situation, processes are unable to:
+
+A. Make progress
+B. Enter memory
+C. Be created
+D. Use a keyboard
+
+**Answer: A. Make progress**
+
+---
+
+### Q99. Which concept involves a process retaining a resource while requesting another?
+
+A. Hold and wait
+B. Mutual exclusion
+C. Critical section
+D. IPC
+
+**Answer: A. Hold and wait**
+
+---
+
+### Q100. Which chapter topic deals with processes becoming unable to proceed because of resource-waiting conditions?
+
+A. IPC
+B. Deadlock
+C. Scheduling
+D. Process creation
+
+**Answer: B. Deadlock**
+
+---
+
