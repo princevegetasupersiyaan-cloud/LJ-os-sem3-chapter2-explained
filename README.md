@@ -1217,7 +1217,9 @@ If you want to study this exactly like your **Chapter 1 preparation**, the next 
 # Mindmap
 
 
-![[image.png]]
+<p align="center">
+  <img src="image.png" width="800" alt="Chapter 2">
+</p>
 
 ## Question & Answer Bank
 
